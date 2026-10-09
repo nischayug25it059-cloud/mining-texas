@@ -4,6 +4,8 @@ An enterprise-grade, public-sector inspired cyber-physical mining intelligence a
 
 ---
 
+> For full technical architecture, design system specifications, and verification details, see [WALKTHROUGH.md](./WALKTHROUGH.md).
+
 ## 🏛️ Platform Highlights
 
 1. **Jharkhand Coalfield Explorer (Real Satellite GIS)**:
