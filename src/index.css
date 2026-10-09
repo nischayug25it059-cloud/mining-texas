@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #F8F8F4;
+    --bg-card: #FFFFFF;
+    --text-primary: #252A25;
+    --text-secondary: #68716B;
+    --color-primary: #245B3C;
+    --color-accent: #E9B949;
+    --border-color: #E2E8F0;
+  }
+
+  body {
+    background-color: #F8F8F4;
+    color: #252A25;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+}
+
+/* Crisp public portal card */
+.gov-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.04);
+}
+
+.gov-card-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.gov-card-hover:hover {
+  border-color: #CBD5E1;
+  box-shadow: 0 6px 16px -2px rgba(36, 91, 60, 0.08);
+}
+
+/* Clean data readout */
+.telemetry-mono {
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  font-feature-settings: 'tnum' on, 'zero' on;
+}
+
+/* Light scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

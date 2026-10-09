@@ -1,0 +1,28 @@
+import { ProductionRecord } from '../types/mining';
+
+export const INITIAL_PRODUCTION_HOURLY: ProductionRecord[] = [
+  { hour: '00:00', timestamp: 0, targetTonnes: 500, actualTonnes: 480, coalTonnes: 210, overburdenTonnes: 270, energyKwh: 185, fuelLitres: 340, carbonEmissionsKg: 1062, efficiencyPercent: 96.0 },
+  { hour: '01:00', timestamp: 1, targetTonnes: 500, actualTonnes: 495, coalTonnes: 220, overburdenTonnes: 275, energyKwh: 190, fuelLitres: 345, carbonEmissionsKg: 1080, efficiencyPercent: 99.0 },
+  { hour: '02:00', timestamp: 2, targetTonnes: 500, actualTonnes: 510, coalTonnes: 230, overburdenTonnes: 280, energyKwh: 195, fuelLitres: 355, carbonEmissionsKg: 1111, efficiencyPercent: 102.0 },
+  { hour: '03:00', timestamp: 3, targetTonnes: 500, actualTonnes: 475, coalTonnes: 200, overburdenTonnes: 275, energyKwh: 180, fuelLitres: 335, carbonEmissionsKg: 1045, efficiencyPercent: 95.0 },
+  { hour: '04:00', timestamp: 4, targetTonnes: 500, actualTonnes: 460, coalTonnes: 190, overburdenTonnes: 270, energyKwh: 175, fuelLitres: 325, carbonEmissionsKg: 1014, efficiencyPercent: 92.0 },
+  { hour: '05:00', timestamp: 5, targetTonnes: 500, actualTonnes: 490, coalTonnes: 215, overburdenTonnes: 275, energyKwh: 188, fuelLitres: 342, carbonEmissionsKg: 1070, efficiencyPercent: 98.0 },
+  { hour: '06:00', timestamp: 6, targetTonnes: 550, actualTonnes: 520, coalTonnes: 235, overburdenTonnes: 285, energyKwh: 205, fuelLitres: 368, carbonEmissionsKg: 1154, efficiencyPercent: 94.5 },
+  { hour: '07:00', timestamp: 7, targetTonnes: 550, actualTonnes: 540, coalTonnes: 245, overburdenTonnes: 295, energyKwh: 212, fuelLitres: 375, carbonEmissionsKg: 1178, efficiencyPercent: 98.2 },
+  { hour: '08:00', timestamp: 8, targetTonnes: 550, actualTonnes: 565, coalTonnes: 260, overburdenTonnes: 305, energyKwh: 220, fuelLitres: 390, carbonEmissionsKg: 1225, efficiencyPercent: 102.7 },
+  { hour: '09:00', timestamp: 9, targetTonnes: 550, actualTonnes: 535, coalTonnes: 240, overburdenTonnes: 295, energyKwh: 210, fuelLitres: 372, carbonEmissionsKg: 1169, efficiencyPercent: 97.3 },
+  { hour: '10:00', timestamp: 10, targetTonnes: 550, actualTonnes: 550, coalTonnes: 250, overburdenTonnes: 300, energyKwh: 215, fuelLitres: 382, carbonEmissionsKg: 1200, efficiencyPercent: 100.0 },
+  { hour: '11:00', timestamp: 11, targetTonnes: 550, actualTonnes: 570, coalTonnes: 265, overburdenTonnes: 305, energyKwh: 225, fuelLitres: 395, carbonEmissionsKg: 1243, efficiencyPercent: 103.6 },
+  { hour: '12:00', timestamp: 12, targetTonnes: 550, actualTonnes: 525, coalTonnes: 230, overburdenTonnes: 295, energyKwh: 208, fuelLitres: 365, carbonEmissionsKg: 1149, efficiencyPercent: 95.5 },
+  { hour: '13:00', timestamp: 13, targetTonnes: 550, actualTonnes: 510, coalTonnes: 225, overburdenTonnes: 285, energyKwh: 202, fuelLitres: 358, carbonEmissionsKg: 1125, efficiencyPercent: 92.7 },
+  { hour: '14:00', timestamp: 14, targetTonnes: 520, actualTonnes: 530, coalTonnes: 240, overburdenTonnes: 290, energyKwh: 208, fuelLitres: 368, carbonEmissionsKg: 1157, efficiencyPercent: 101.9 },
+  { hour: '15:00', timestamp: 15, targetTonnes: 520, actualTonnes: 545, coalTonnes: 250, overburdenTonnes: 295, energyKwh: 214, fuelLitres: 378, carbonEmissionsKg: 1188, efficiencyPercent: 104.8 },
+  { hour: '16:00', timestamp: 16, targetTonnes: 520, actualTonnes: 515, coalTonnes: 230, overburdenTonnes: 285, energyKwh: 204, fuelLitres: 360, carbonEmissionsKg: 1132, efficiencyPercent: 99.0 },
+  { hour: '17:00', timestamp: 17, targetTonnes: 520, actualTonnes: 535, coalTonnes: 245, overburdenTonnes: 290, energyKwh: 210, fuelLitres: 370, carbonEmissionsKg: 1164, efficiencyPercent: 102.9 },
+  { hour: '18:00', timestamp: 18, targetTonnes: 520, actualTonnes: 540, coalTonnes: 250, overburdenTonnes: 290, energyKwh: 212, fuelLitres: 375, carbonEmissionsKg: 1178, efficiencyPercent: 103.8 },
+  { hour: '19:00', timestamp: 19, targetTonnes: 520, actualTonnes: 525, coalTonnes: 235, overburdenTonnes: 290, energyKwh: 206, fuelLitres: 366, carbonEmissionsKg: 1150, efficiencyPercent: 101.0 },
+  { hour: '20:00', timestamp: 20, targetTonnes: 500, actualTonnes: 510, coalTonnes: 230, overburdenTonnes: 280, energyKwh: 200, fuelLitres: 355, carbonEmissionsKg: 1115, efficiencyPercent: 102.0 },
+  { hour: '21:00', timestamp: 21, targetTonnes: 500, actualTonnes: 495, coalTonnes: 220, overburdenTonnes: 275, energyKwh: 195, fuelLitres: 345, carbonEmissionsKg: 1084, efficiencyPercent: 99.0 },
+  { hour: '22:00', timestamp: 22, targetTonnes: 500, actualTonnes: 480, coalTonnes: 210, overburdenTonnes: 270, energyKwh: 190, fuelLitres: 335, carbonEmissionsKg: 1054, efficiencyPercent: 96.0 },
+  { hour: '23:00', timestamp: 23, targetTonnes: 500, actualTonnes: 490, coalTonnes: 215, overburdenTonnes: 275, energyKwh: 194, fuelLitres: 342, carbonEmissionsKg: 1076, efficiencyPercent: 98.0 },
+];
